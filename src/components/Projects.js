@@ -12,28 +12,30 @@ export default function Projects() {
     const projectsList = [
         {
             name: "Technology used",
+            description: "Book Store Classic library",
+            link: "https://github.com/ola511/Library",  // example GitHub link
+            liveDemo: "https://classicbooks.netlify.app",  // example live demo link
+            image: Project3Preview,  // associate the imported image here
+            tech: " jQuery/ Bootstrap /CSS and JavaScrip"  // example technology for the badge
+        },
+        {
+            name: "Technology used",
+            description: "Game To Guess The Number",
+            link: "https://github.com/ola511/GuessTheNumberGame",  // example GitHub link
+            // example live demo link
+            image: Project2Preview,  // associate the imported image here
+            tech: "Angular/TypeScript"  // example technology for the badge
+        },
+        {
+            name: "Technology used",
             description: "Searching by using API",
             link: "https://github.com/ola511/APIFoodSearch",  // example GitHub link
             liveDemo: "https://api-food-search.netlify.app",  // example live demo link
             image: Project1Preview,  // associate the imported image here
             tech: "JavaScript/API"  // example technology for the badge
         },
-        {
-            name: "Technology used",
-            description: "Game To Guess The Number",
-            link: "https://github.com/ola511/GuessTheNumberGame",  // example GitHub link
-           // example live demo link
-            image: Project2Preview,  // associate the imported image here
-            tech: "Angular/TypeScript"  // example technology for the badge
-        },
-        {
-            name: "Technology used",
-            description: "Book Store Classic library",
-            link: "http://aljarrao.dev.fast.sheridanc.on.ca/webprog/assignments/Library/",  // example GitHub link
-            liveDemo: "https://project1-demo.netlify.app",  // example live demo link
-            image: Project3Preview,  // associate the imported image here
-            tech: " jQuery/ Bootstrap /CSS and JavaScrip"  // example technology for the badge
-        },
+
+
         {
             name: "Technology used",
             description: "Truck Management System Website",
