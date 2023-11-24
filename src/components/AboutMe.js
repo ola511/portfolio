@@ -4,7 +4,7 @@ const AboutMe = () => {
     return (
         <div>
             <p> <br></br>
-                Hi, I am Ola, currently in my final term at Sheridan College, pursuing an Advanced Diploma in Software Development and Network Engineering.<br /><br />
+                Hi, I am Ola, currently in my final term at Sheridan College, pursuing an Advanced Diploma in Computer Systems Technology-Software Development and Network Engineering.<br /><br />
                 Throughout my academic journey, I have honed a multitude of technical and programming skills.<br /><br />
                 Additionally, I have benefited from two co-op work experiences that provided me with practical, hands-on knowledge.<br />
                 My first co-op position was in Executive IT Support, while my second was in Data Engineering, which I thoroughly enjoyed.<br /><br />
