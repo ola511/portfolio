@@ -49,13 +49,18 @@
   display: flex;
   justify-content: center; /* centers horizontally */
   align-items: center;     /* centers vertically */
-  height: 100%;
+
 
   /* or set a specific height if needed */
 }
+
 .image-container img {
-  border-radius: 20%;  /* This makes the image rounded */
+ max-width: 10%; /* Ensure the image does not exceed the container width */
+  max-height: 10%; /* Ensure the image does not exceed the container height */
+  border-radius: 20%; /* This makes the image rounded */
 }
+
+
 
 
 body {
@@ -63,10 +68,10 @@ body {
 }
 
 .carousel-image {
-  max-width: 50%;  /* Adjust as needed to make the image smaller */
-  margin: 0 auto; /* To center the image */
-  display: block;
-
+  max-width: 50%; /* Adjust the maximum width of the image */
+   max-height: 50%; /* Adjust the maximum height of the image */
+   margin: 0 auto; /* To center the image */
+   display: block;
 }
 
 /*.cap-text-cont {
